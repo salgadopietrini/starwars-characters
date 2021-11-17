@@ -1,0 +1,71 @@
+.starwarsNames {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  padding-bottom: 20px;
+}
+
+.starwarsDivNames {
+  background-color: rgb(219, 219, 70);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 180px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.divGeneralText {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.modalDiv {
+  background-color: #fff;
+  color: black;
+  border: solid 2px rgb(219, 219, 70);
+  border-radius: 20px;
+  width: 220px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.modalDivBody {
+  padding: 5px 5px;
+}
+.closeBtnDiv {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnChangePageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btnChangePages {
+  background-color: #fff;
+  color: rgb(5, 5, 82);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+}
+.btnChangePages:hover {
+  background-color: rgb(219, 219, 70);
+  cursor: pointer;
+}
+
+.btnPrevious {
+  margin-right: 10px;
+}
